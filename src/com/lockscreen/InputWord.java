@@ -137,16 +137,21 @@ public class InputWord extends Activity {
 				String st = listtext.getText().toString();
 				String st2 = listtext2.getText().toString();
 				String addSt = st +"/"+ st2;
-				
-				m_list.add(addSt);
-				//m_list.add(1,listtext2.getText().toString());
-				
-				Log.d("Insert: ", "Inserting ..");
-				db.addContact(new Word(listtext.getText().toString(), listtext2
-						.getText().toString()));
-				listtext.setText("");
-				listtext2.setText("");
-				m_adapter.notifyDataSetChanged();
+				if(st.equals("") || st2.equals("")){
+					Toast.makeText(InputWord.this, "단어를 입력해주세요", Toast.LENGTH_LONG).show();
+					
+				}
+				else{
+					m_list.add(addSt);
+					//m_list.add(1,listtext2.getText().toString());
+					
+					Log.d("Insert: ", "Inserting ..");
+					db.addContact(new Word(listtext.getText().toString(), listtext2
+							.getText().toString()));
+					listtext.setText("");
+					listtext2.setText("");
+					m_adapter.notifyDataSetChanged();
+				}
 			}
 		});
 

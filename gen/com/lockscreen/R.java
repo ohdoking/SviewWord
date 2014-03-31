@@ -24,26 +24,30 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int droid=0x7f020000;
-        public static final int droid1=0x7f020001;
-        public static final int droidupdated=0x7f020002;
-        public static final int home=0x7f020003;
-        public static final int home1=0x7f020004;
-        public static final int home128=0x7f020005;
-        public static final int homeupdated=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int images=0x7f020008;
-        public static final int images0=0x7f020009;
-        public static final int index=0x7f02000a;
-        public static final int index1=0x7f02000b;
-        public static final int lockicon=0x7f02000c;
-        public static final int main=0x7f02000d;
-        public static final int phone=0x7f02000e;
-        public static final int phone150=0x7f02000f;
-        public static final int phone2=0x7f020010;
-        public static final int phone3=0x7f020011;
-        public static final int phoneupdated=0x7f020012;
-        public static final int phoneupdated1=0x7f020013;
+        public static final int add=0x7f020000;
+        public static final int app_icon=0x7f020001;
+        public static final int droid=0x7f020002;
+        public static final int droid1=0x7f020003;
+        public static final int droidupdated=0x7f020004;
+        public static final int home=0x7f020005;
+        public static final int home1=0x7f020006;
+        public static final int home128=0x7f020007;
+        public static final int homeupdated=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int images=0x7f02000a;
+        public static final int images0=0x7f02000b;
+        public static final int index=0x7f02000c;
+        public static final int index1=0x7f02000d;
+        public static final int list=0x7f02000e;
+        public static final int lockicon=0x7f02000f;
+        public static final int main=0x7f020010;
+        public static final int phone=0x7f020011;
+        public static final int phone150=0x7f020012;
+        public static final int phone2=0x7f020013;
+        public static final int phone3=0x7f020014;
+        public static final int phoneupdated=0x7f020015;
+        public static final int phoneupdated1=0x7f020016;
+        public static final int save=0x7f020017;
     }
     public static final class id {
         public static final int WordMean=0x7f090001;
@@ -64,8 +68,8 @@ public final class R {
         public static final int imageView=0x7f09000a;
         public static final int listView1=0x7f090007;
         public static final int phone=0x7f090013;
-        public static final int setbtn=0x7f09000f;
-        public static final int tV=0x7f090010;
+        public static final int setbtn=0x7f090010;
+        public static final int tV=0x7f09000f;
         public static final int tm=0x7f09000d;
     }
     public static final class layout {

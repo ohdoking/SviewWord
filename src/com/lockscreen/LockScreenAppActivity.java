@@ -32,6 +32,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup.MarginLayoutParams;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -57,7 +58,7 @@ public class LockScreenAppActivity extends Activity implements
 
 	public ArrayList<String> m_list = new ArrayList<String>();
 	TextView droid;
-	Button setbtn;
+	ImageButton setbtn;
 	int yes = 0;
 
 	TextView time;
@@ -108,7 +109,7 @@ public class LockScreenAppActivity extends Activity implements
 		 * go = new Time(); t1 = new Thread(go); t1.start();
 		 */
 
-		setbtn = (Button) findViewById(R.id.setbtn);
+		setbtn = (ImageButton) findViewById(R.id.setbtn);
 		setbtn.setOnClickListener(new OnClickListener() {
 
 			@Override
